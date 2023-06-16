@@ -4,15 +4,15 @@ version: 1.0.4
 homepage: https://github.com/AdityaMulgundkar/flutter_opencv
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   # Flutter versions prior to 1.12 did not support the
   # flutter.plugin.platforms map.
-  flutter: ">=1.12.0 <2.0.0"
+  # flutter: ">=1.12.0 <2.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-
+  # ffi: ^1.1.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -23,3 +23,29 @@ flutter:
       android:
         package: com.mulgundkar.opencv
         pluginClass: OpenCV4Plugin
+# name: opencv_flutter_ffi
+# description: A new Flutter project.
+
+# publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# version: 1.0.0+1
+
+# environment:
+#   sdk: ">=2.12.0 <3.0.0"
+
+# dependencies:
+#   flutter:
+#     sdk: flutter
+#   ffi: ^1.1.2
+#   image_picker: ^0.8.2
+#   camera: ^0.10.3+2
+#   image: ^3.0.2
+
+# dev_dependencies:
+#   flutter_test:
+#     sdk: flutter
+
+# flutter:
+#   uses-material-design: true
+#   assets:
+#     - assets/img/default.jpg
